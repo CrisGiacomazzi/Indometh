@@ -9,3 +9,22 @@ The goal of the pharmacokinetic (PK) analysis is to characterize how indomethaci
 - The purpose of this project was to bridge the gap between technical data generation and business intelligence, transforming raw statistical output into a highly communicative visualization that enhances stakeholder data literacy and drives operational decisions.
 
 
+# Results
+
+## Native R plot
+The native R output represents a standard, exploratory data visualisation typically generated during the initial phases of statistical analysis (figure 1). Rendered using a default grey background with high-contrast gridlines, the plot displays individual subject trajectories over an 8-hour period as overlapping, uniform black lines. While technically accurate in plotting concentration-time data points, this baseline graphic lacks a visual hierarchy, a population central tendency, and descriptive metadata. It serves as a raw diagnostic tool for the analyst rather than a communication asset for non-technical stakeholders, requiring significant cognitive effort to extract meaningful clinical or business insights.
+
+Figure 1. Native R plot for PK analysis
+<img width="1534" height="1380" alt="image" src="https://github.com/user-attachments/assets/eff5f708-60a8-442f-9ff3-c80e35344007" />
+
+## Visual Re-Engineering and Modifications
+- Eliminated Visual Noise: Replaced the heavy, native grey background grid with a clean, high-contrast white workspace to streamline stakeholder focus.
+- Established Strategic Context: Added an executive-level title ("Fig 2. Indometh - Population Pharmacokinetics") and refined the y-axis label to explicitly state the biological matrix ("Drug concentration in Plasma (mg/L)").
+- Layered Complex Data: The plot visualizes individual concentration–time profiles using grey lines, while black points represent observed plasma concentrations at each sampling time.
+- Engineered Primary Signals: Introduced a bold red population trendline along with dotted red confidence bounds to instantly separate central tendencies (median) from individual variability.
+- Anchored Operational Milestones: Placed an explicit vertical boundary at the 8-hour mark to clearly denote the "End of Study" and integrated a dashed horizontal baseline at 0mg/L.
+- Enhanced Stakeholder Interpretation: This visualization supports stakeholder interpretation by linking raw measurements to overall exposure trends across the population.
+  
+Figure 2. Business-Oriented Plot Enhancements
+<img width="1534" height="1380" alt="image" src="https://github.com/user-attachments/assets/714f2fd7-9ab8-47e8-9542-21c02a0182e6" />
+
