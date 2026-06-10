@@ -35,4 +35,16 @@ _
 # Conclusion
 This portfolio project demonstrates mature health data literacy by transforming a standard, non-descript R visualization into a compelling, executive-ready data story. By establishing context and a clear value proposition through deliberate labeling and precise axis definitions, the design immediately communicates the clinical asset and biological parameters under review. The visualization reduces cognitive load via a structured visual hierarchy, stripping away distracting background noise and muting individual patient trajectories to let the critical data trends emerge seamlessly. Furthermore, the strategic introduction of a central population trendline (median) delivers immediate actionable insight, while explicitly marked strategic milestones (such as the exact trial termination boundaries) provide crucial operational anchors for business and clinical decision-makers alike.
 
+# Source
+Munjal A, Allam AE. Indomethacin. [Updated 2024 May 28]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK555936/
+
+StatPearls. (2026). Indomethacin. In StatPearls. StatPearls Publishing. https://www.ncbi.nlm.nih.gov/books/NBK557744/
+
+Waller, E. (1983). Evaluation of New Indomethacin Dosage Forms. Pharmacotherapy: The Journal of Human Pharmacology & Drug Therapy, 3(6), 324–331. https://doi.org/10.1002/j.1875-9114.1983.tb03290.x 
+
+# Data Source
+The analysis was performed using the publicly available Indometh dataset included in R. The dataset contains repeated measurements of indomethacin plasma concentrations over time for six subjects and was used to explore population pharmacokinetic patterns and inter-individual variability.
+
+
+
 
