@@ -15,7 +15,7 @@ The goal of the pharmacokinetic (PK) analysis is to characterize how indomethaci
 The native R output represents a standard, exploratory data visualisation typically generated during the initial phases of statistical analysis (figure 1). Rendered using a default grey background with high-contrast gridlines, the plot displays individual subject trajectories over an 8-hour period as overlapping, uniform black lines. While technically accurate in plotting concentration-time data points, this baseline graphic lacks a visual hierarchy, a population central tendency, and descriptive metadata. It serves as a raw diagnostic tool for the analyst rather than a communication asset for non-technical stakeholders, requiring significant cognitive effort to extract meaningful clinical or business insights.
 
 Figure 1. Native R plot for PK analysis
-<img width="1534" height="1380" alt="image" src="https://github.com/user-attachments/assets/eff5f708-60a8-442f-9ff3-c80e35344007" />
+<img width="2534" height="1380" alt="image" src="https://github.com/user-attachments/assets/f7224224-f487-449a-90bd-06f2586bb830" />
 
 ## Visual Re-Engineering and Modifications
 - Eliminated Visual Noise: Replaced the heavy, native grey background grid with a clean, high-contrast white workspace to streamline stakeholder focus.
@@ -26,7 +26,7 @@ Figure 1. Native R plot for PK analysis
 - Enhanced Stakeholder Interpretation: This visualization supports stakeholder interpretation by linking raw measurements to overall exposure trends across the population.
   
 Figure 2. Business-Oriented Plot Enhancements
-<img width="1534" height="1380" alt="image" src="https://github.com/user-attachments/assets/714f2fd7-9ab8-47e8-9542-21c02a0182e6" />
+<img width="2534" height="1380" alt="image" src="https://github.com/user-attachments/assets/6485213a-b86d-43c7-b77b-e871c337ca48" />
 
 Observation:
 There is no established therapeutic plasma concentration range for indomethacin, for this reason, it was added a 95% CI in the plot to support the variability between subjects. 
