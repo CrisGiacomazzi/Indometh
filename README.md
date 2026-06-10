@@ -26,7 +26,7 @@ Figure 1. Native R plot for PK analysis
 - Enhanced Stakeholder Interpretation: This visualization supports stakeholder interpretation by linking raw measurements to overall exposure trends across the population.
   
 Figure 2. Business-Oriented Plot Enhancements
-<img width="2534" height="1380" alt="image" src="https://github.com/user-attachments/assets/6485213a-b86d-43c7-b77b-e871c337ca48" />
+<img width="2434" height="1380" alt="image" src="https://github.com/user-attachments/assets/8dbee04f-9b71-4ea8-bc4e-57e182478292" />
 
 Observation:
 There is no established therapeutic plasma concentration range for indomethacin, for this reason, it was added a 95% CI in the plot to support the variability between subjects. 
