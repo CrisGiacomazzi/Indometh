@@ -28,3 +28,6 @@ Figure 1. Native R plot for PK analysis
 Figure 2. Business-Oriented Plot Enhancements
 <img width="1534" height="1380" alt="image" src="https://github.com/user-attachments/assets/714f2fd7-9ab8-47e8-9542-21c02a0182e6" />
 
+Observation:
+There is no established therapeutic plasma concentration range for indomethacin, for this reason, it was added a 95% CI in the plot to support the variability between subjects. 
+
