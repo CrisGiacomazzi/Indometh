@@ -28,9 +28,9 @@ Figure 1. Native R plot for PK analysis
 Figure 2. Business-Oriented Plot Enhancements
 <img width="2434" height="1380" alt="image" src="https://github.com/user-attachments/assets/8dbee04f-9b71-4ea8-bc4e-57e182478292" />
 
-_Observation:
+Observation:
 There is no established therapeutic plasma concentration range for indomethacin, for this reason, it was added a 95% CI in the plot to support the variability between subjects. 
-_
+
 
 # Conclusion
 This portfolio project demonstrates mature health data literacy by transforming a standard, non-descript R visualization into a compelling, executive-ready data story. By establishing context and a clear value proposition through deliberate labeling and precise axis definitions, the design immediately communicates the clinical asset and biological parameters under review. The visualization reduces cognitive load via a structured visual hierarchy, stripping away distracting background noise and muting individual patient trajectories to let the critical data trends emerge seamlessly. Furthermore, the strategic introduction of a central population trendline (median) delivers immediate actionable insight, while explicitly marked strategic milestones (such as the exact trial termination boundaries) provide crucial operational anchors for business and clinical decision-makers alike.
