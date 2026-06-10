@@ -4,3 +4,8 @@
 
 The goal of the pharmacokinetic (PK) analysis is to characterize how indomethacin plasma concentration changes over time after administration and to evaluate inter-subject variability (StatPearls, 2026).
 
+# Objective
+
+- The purpose of this project was to bridge the gap between technical data generation and business intelligence, transforming raw statistical output into a highly communicative visualization that enhances stakeholder data literacy and drives operational decisions.
+
+
